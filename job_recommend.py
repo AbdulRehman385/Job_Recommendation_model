@@ -8,7 +8,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 
-jobs_df = pickle.load(open(r'/content/jobs_df.pkl', 'rb'))
+jobs_df = pickle.load(open(r'jobs_df.pkl', 'rb'))
 
 st.title('Job Recommender system')
 cv = CountVectorizer(max_features = 300)
