@@ -30,6 +30,7 @@ streamlit==1.39.0
 pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.5.2
-xgboost==2.1.1
-scipy==1.14.0
-joblib==1.4.2
+```
+
+## APP
+APP URL: https://jobrecommendationmodel-sbcn53s5vpdpzwckgg2yiy.streamlit.app/
